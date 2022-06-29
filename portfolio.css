@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+.ux-image {
+    width: 40vw;
+    height: 50vh;
+}
+
+.ux-design {
+    background-color: #dff5f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ux-container {
+    min-height: 60vh;
+}
+
+#navItem1 {
+    color: whitesmoke;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#navItem2 {
+    color: whitesmoke;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#navItem3 {
+    color: whitesmoke;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#navItem4 {
+    color: whitesmoke;
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header-content {
+    background-image: url("https://res.cloudinary.com/dngghzryi/image/upload/v1644487554/images/herts-portfolio-bg_d03bag.png");
+    height: 100vh;
+    background-size: cover;
+    color: rgb(13, 92, 129);
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.success-message {
+    color: #228B22;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.nav-container {
+    background-color: rgb(13, 138, 127);
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: rgb(60, 116, 221);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 8px 15px;
+    background: rgb(170, 207, 68);
+    border-radius: 30px;
+    color: rgb(253, 252, 252);
+}
+
+.home-logo {
+    font-family: "Bree Serif";
+    font-size: 38px;
+    color: rgb(219, 217, 217);
+}
+
+.lio {
+    color: rgb(194, 184, 52);
+}
+
+.profile-img {
+    width: 70%;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+}
+
+.aboutMe {
+    background-color: rgba(164, 206, 201, 0.973);
+}
+
+.about {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Ubuntu, 'Open Sans', sans-serif;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: rgb(19, 18, 18);
+    transform: translateX(-50%);
+
+}
+
+.about::after {
+    content: "who I am";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(13, 92, 129);
+    padding: 5px;
+    background: rgba(164, 206, 201, 0.973);
+    transform: translateX(-50%);
+}
+
+#cv-button {
+    color: whitesmoke;
+}
+
+#profile-button:hover {
+    color: whitesmoke;
+    background: rgb(102, 101, 101);
+    transform: scale(1.05);
+}
+
+span {
+    color: brown;
+}
+
+.text1 {
+    font-size: 40px;
+    font-family: "Bree Serif";
+}
+
+/* projects-styling*/
+
+.project-image-container {
+    width: 100%;
+}
+
+.projects {
+    background-color: rgba(182, 230, 224, 0.973);
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(24, 24, 26);
+}
+
+.taj-content {
+    font-family: "bree serif";
+    font-size: 40px;
+}
+
+.curved-content {
+    font-family: "bree serif";
+    font-size: 20px;
+}
+
+.events .row {
+    margin-top: 0px;
+
+}
+
+h4 {
+    font-size: 3vmin;
+    color: rgb(13, 23, 41);
+    margin: 20px auto;
+}
+
+p {
+    font-size: 2vmin;
+    color: rgb(35, 35, 36);
+    padding: 30px 40px;
+}
+
+.events .ctn {
+    margin-top: 100px;
+}
+
+
+/*skill--section */
+.skill-section-container {
+    background-color: rgba(109, 177, 168, 0.973);
+}
+
+.services {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Ubuntu, 'Open Sans', sans-serif;
+}
+
+.services::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: rgb(3, 3, 3);
+    transform: translateX(-50%);
+
+}
+
+.services::after {
+    content: "what I provide";
+    background: rgba(109, 177, 168, 0.973);
+    position: absolute;
+    bottom: -9px;
+    left: 50%;
+    font-size: 18px;
+    padding: 2px;
+    color: rgb(13, 92, 129);
+    transform: translateX(-50%);
+}
+
+.box {
+    background-color: rgba(182, 230, 224, 0.973);
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box {
+    transition: all 0.75s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    background: rgb(215, 233, 114);
+}
+
+.logo-skills {
+    font-size: 50px;
+}
+
+.text {
+    font-size: 25px;
+    font-family: "bree serif";
+    font-weight: 700;
+}
+
+p {
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+
+/**vector---illustrations**/
+
+.vector-illustrations {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/dngghzryi/image/upload/v1644499706/images/farm1_a9cbm1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content {
+    width: 60%;
+    padding: 50px;
+    color: rgb(27, 26, 26);
+}
+
+.explore-content h1 {
+    font-size: 7vmin;
+    margin: 50px;
+    text-align: center;
+
+}
+
+.explore-content .line {
+    margin-bottom: 60px;
+}
+
+.button-vector {
+    margin-top: 50px;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    padding: 10px 40px;
+    margin: 0px;
+    background: #282844;
+    text-align: center;
+}
+
+.footer-description {
+    color: darkgrey;
+    font-size: 15px;
+}
