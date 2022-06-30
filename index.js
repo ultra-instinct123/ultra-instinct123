@@ -13,7 +13,7 @@ let successMsgEl = document.getElementById("successMsg");
 let closeEl = document.getElementById("closeModal");
 
 
-let formData = {
+var formData = {
     name: "",
     email: "",
     phone: "",
@@ -50,12 +50,10 @@ closeEl.addEventListener("click", function close(formData) {
     phoneEl.value = "";
     emailEl.value = "";
     messageEl.value = "";
-    recipientNameEl.value = "";
+    nameEl.value = "";
+    nameErrMsgEl.textContent = "";
+    emailErrMsgEl.textContent = "";
     successMsgEl.textContent = "";
-    formData.name = "";
-    formData.email = "";
-    formData.phone = "";
-    formData.message = "";
 });
 
 
@@ -106,5 +104,5 @@ function successMsg(formData) {
 
 getInTouchEl.addEventListener("submit", function(event) {
     event.preventDefault();
-    validateFormData(formData);
+    successMsg(formData);
 });
