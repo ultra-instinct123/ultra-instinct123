@@ -73,8 +73,34 @@ function validateFormData(formData) {
 }
 
 function successMsg(formData) {
-    successMsgEl.textContent = "Nice to meet you " + formData.name + " !!! , hope we will meet soon";
+    let {
+        name,
+        email
+    } = formData;
+    if (name === "" && email === "") {
+        nameErrMsgEl.textContent = "Required*";
+        emailErrMsgEl.textContent = "Required*";
+        successMsgEl.textContent = "";
+    } else if (name === "") {
+        nameErrMsgEl.textContent = "Required*";
+        successMsgEl.textContent = "";
+    } else if (email === "") {
+        emailErrMsgEl.textContent = "Required*";
+        successMsgEl.textContent = "";
+    } else {
+        successMsgEl.textContent = "Nice to meet you " + formData.name + "!!! , hope we will meet soon";
+        formData.name = "";
+        formData.email = "";
+        formData.message = "";
+        formData.phone = "";
+        phoneEl.value = "";
+        emailEl.value = "";
+        messageEl.value = "";
+        nameEl.value = "";
+    }
+
 }
+
 
 
 
