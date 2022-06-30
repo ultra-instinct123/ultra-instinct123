@@ -92,6 +92,7 @@ function successMsg(formData) {
         formData.message = "";
         formData.phone = "";
         phoneEl.value = "";
+        nameEl.value = "";
         emailEl.value = "";
         messageEl.value = "";
         nameEl.value = "";
